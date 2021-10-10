@@ -1,5 +1,0 @@
-print("Hello, Type in your name:")
-n=str(input())
-print("Hello",n, "What is your age:")
-p=int(input())
-print("Hi",n, p, "welcome here !!!")
