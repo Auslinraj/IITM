@@ -11,3 +11,15 @@ while(i<=n):
   i=i+1
 
 print(ans)
+
+#Find Factorial of a Number method 2
+
+num=int(input('Enter the Number: '))
+fact=1
+if(num<0):
+  print('Not defined')
+else:
+  while(num>0):
+    fact=fact*num
+    num=num-1
+  print(fact)
